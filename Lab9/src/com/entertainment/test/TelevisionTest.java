@@ -41,8 +41,8 @@ class TelevisionTest
       
       // iterate over the array, just accessing it through the implemented interface Volume
       
-      //tv.silence();
-      //r.silence();
+      tv.silence();
+      r.silence();
       for (Volume curVol : volArray)
       {
     	  // double the volume of each element - just as a demonstration
